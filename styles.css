@@ -1,0 +1,104 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: beige;
+}
+header , footer {
+    background-color: rgb(205, 172, 129);
+    align-items: flex-end;
+    text-align: center;
+    align-items: center;
+}
+img {
+    width: 100px;
+    padding-top: 20px;
+    padding-left: 5px;
+    padding-bottom: 20px;
+    text-align: left;
+    border-radius: 50px;
+    
+}
+.Search {
+    width: 300px;
+    border-radius: 15px;
+    margin-left: 100px;
+
+}
+.menu-bar {
+    margin-right: 50px;
+    padding-left: 20px;
+    padding-bottom: 50px;
+    padding-top: 20px;
+    text-align: center;
+    
+}
+
+
+a {
+    text-decoration: none;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: black;
+    
+    
+}
+a:hover { 
+    opacity: 0.8;
+    border-radius: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    background-color: rgb(41, 87, 41);
+}
+a:active {
+    opacity: 0.3;
+    color: aliceblue;
+}
+h1 {
+    text-align: center;
+    margin-top: 100px;
+    color: green;
+}
+.content {
+   
+    width: 800px;
+    margin-right: 50px;
+    margin-left: 350px;
+    padding-top: 50px;
+}
+p {
+    color: gray;
+}
+
+nav {
+    
+    line-height: 100px;
+    padding-bottom: 50px;
+    display: inline-block;
+}
+.main-div {
+    width: 200px;
+    margin-bottom: 10px;
+    background-color: blueviolet;
+    margin-bottom: 20px;
+    
+}
+.side-div {
+    width: 80px;
+    min-height: 200px;
+    background-color: aliceblue;
+    float: left;
+    
+}
+.area-div {
+    width: 100px;
+    min-height: 200px;
+    
+    background-color: aliceblue;
+    float: right;
+    
+}
+footer {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
